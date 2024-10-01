@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+
+}
+body {
+    background-color: white;
+}
+body #main {
+
+}
+body #main #header  {
+
+}
+body #main #header ul{
+    list-style-type: none;
+    display: inline-block;
+}
+body #main #header li a{
+    display: block;
+    text-decoration: none;
+}

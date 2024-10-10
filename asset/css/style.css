@@ -20,6 +20,10 @@ body #main #header  {
     height: 547px;
     background-color: red;
     position: relative;
+    background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
 }
 body #main #header ul{
     width: 100%;
@@ -55,11 +59,43 @@ body #main #header li a:hover {
     background-color: white;
     color:black
 }
-/* body #main #header p {
-    width: 1000px;
-    height: 547.5px;
-    background-size:cover;
-} */
+body #main #header #header_infor1 {
+    width:180px;
+    height:270px;
+    background-color: cornsilk;
+    margin: auto;
+    line-height: normal;
+    vertical-align: middle;
+    /* position:absolute;
+    top: 138.5px;
+    left: 300px;  */
+}
+body #main #header #header_infor1 span {
+    width: 180px;
+    height: 229px;
+    font-size: 90px;
+    font-family: sans-serif;
+}
+body #main #header #header_infor2 {
+    width:214px;
+    height:47px;
+    background-color: cyan;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    left: 15px;
+    bottom: 10px;;
+}
+body #main #header #header_infor2 span {
+    width:100%;
+    height:23px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 0px 8px;
+}
+
 /* End CSS header */
 /* Start CSS content */
 /* Start CSS about */

@@ -13,11 +13,13 @@ body {
 body #main {
 
 }
+/* Start CSS header */
 body #main #header  {
     /* Kích thước */
     width: 100%;
-    height: 55px;
+    height: 547px;
     background-color: red;
+    position: relative;
 }
 body #main #header ul{
     width: 100%;
@@ -26,20 +28,77 @@ body #main #header ul{
     display: inline-block;
     background-color: black;
     padding: 8px 16px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
 }
 
 body #main #header li{
     float: left;
     line-height: normal;
+    vertical-align: middle;
 } 
 body #main #header li a{
-    width: 310px;
+    width: 370px;
     height:39px;
     display: block;
     text-decoration: none;
     text-align: center;
     font-size: 15px;
     line-height: normal;
-    padding: 8px 16px;
+    padding: 8px 12px;
     color: white;
+
 }
+body #main #header li a:hover {
+    background-color: white;
+    color:black
+}
+/* body #main #header p {
+    width: 1000px;
+    height: 547.5px;
+    background-size:cover;
+} */
+/* End CSS header */
+/* Start CSS content */
+/* Start CSS about */
+body #main #about {
+    width: 100%;
+    height: 1078px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+body #main #about #about_main {
+    width:1269px;
+    height:1077px;
+    background-color: chartreuse;
+    justify-content: center;
+    display: flex;
+}
+body #main #about #about_main h5 {
+    width: 700px;
+    height: 150px;
+    margin: 10px 0px;
+    padding: 64px 0px;
+    background-color: darkorange;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+body #main #about #about_main h5 span {
+    width: 100%;
+    height: 27px;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 18px;
+    letter-spacing: 2px;
+    background-color: black;
+    color:white;
+    padding: 0px 8px;
+    line-height: normal;
+    vertical-align: middle;
+}
+/* body #main #about #about_main  */

@@ -59,73 +59,99 @@ body #main #header li a:hover {
     background-color: white;
     color:black
 }
-body #main #header #header_infor1 {
+body #main #header #header_tittle {
     width:180px;
     height:270px;
-    background-color: cornsilk;
-    margin: auto;
-    line-height: normal;
-    vertical-align: middle;
-    /* position:absolute;
-    top: 138.5px;
-    left: 300px;  */
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-body #main #header #header_infor1 span {
-    width: 180px;
+body #main #header #header_tittle span {
+    width: 30px;
     height: 229px;
     font-size: 90px;
     font-family: sans-serif;
+    color:white;
 }
-body #main #header #header_infor2 {
+body #main #header #open_time {
     width:214px;
     height:47px;
-    background-color: cyan;
     display:flex;
     align-items: center;
     justify-content: center;
     position:absolute;
-    left: 15px;
-    bottom: 10px;;
+    left: 0px;
+    bottom: 0px;
 }
-body #main #header #header_infor2 span {
+body #main #header #open_time span {
     width:100%;
     height:23px;
+    background-color: black;
     color: white;
     font-size: 15px;
     font-family: sans-serif;
     padding: 0px 8px;
+    text-align: center;
 }
-
+body #main #header #address {
+    width:191px;
+    height:47px;
+    padding: 12px 24px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+body #main #header #address span {
+    width:100%;
+    height: 16px;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color:rgba(0, 0, 0, 0);
+    color: white;
+}
 /* End CSS header */
 /* Start CSS content */
 /* Start CSS about */
 body #main #about {
     width: 100%;
     height: 1078px;
-    background-color: aqua;
+    /* background-color: aqua; */
     align-items: center;
     justify-content: center;
     display: flex;
 }
 body #main #about #about_main {
-    width:1269px;
+    width:700px;
     height:1077px;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     justify-content: center;
     display: flex;
+    flex-direction: column;
+    position: relative;
 }
 body #main #about #about_main h5 {
-    width: 700px;
+    width: 100%;
     height: 150px;
     margin: 10px 0px;
     padding: 64px 0px;
-    background-color: darkorange;
+    /* background-color: darkorange; */
     align-items: center;
     justify-content: center;
     display: flex;
+    position:absolute;
+    top:0px;
+    left:0px;
 }
 body #main #about #about_main h5 span {
-    width: 100%;
+    width: 30%;
     height: 27px;
     text-align: center;
     font-family: "Arial";
@@ -136,5 +162,275 @@ body #main #about #about_main h5 span {
     padding: 0px 8px;
     line-height: normal;
     vertical-align: middle;
+    position:relative;
 }
-/* body #main #about #about_main  */
+body #main #about #about_main #about_infor1 {
+    width:100%;
+    height:108px;
+    /* background-color: red; */
+    margin:18px 0px;
+    font-size: 18px;
+    font-family:"Arial";
+    position:absolute;
+    top: 165px;
+    left: 0px;
+}
+body #main #about #about_main #about_infor2 {
+    width:100%;
+    height:81px;
+    /* background-color: purple; */
+    margin:18px 0px;
+    font-size: 18px;
+    font-family:"Arial";
+    position:absolute;
+    top: 280px;
+    left: 0px;
+}
+body #main #about #about_main #about_infor3 {
+    width: 100%;
+    height:135px;
+    padding: 0.18px 16px;
+    margin: 16px 0px;
+    background-color:#f1f1f1;
+    border-left: solid 7px rgba(0, 0, 0, 0.2);
+    position:absolute;
+    top: 380px;
+    left: 0px;
+}
+body #main #about #about_main #about_infor3 #about_infor3_1{
+    width: 97%;
+    height:54px;
+    margin: 18px 0px;
+}
+body #main #about #about_main #about_infor3 #about_infor3_2{
+    width: 97%;
+    height:27px;
+    margin: 18px 0px;
+}
+body #main #about #about_main img {
+    width:100%;
+    height:394px;
+    margin: 16px 0px 0px 0px;
+    position:absolute;
+    top: 530px;
+    left: 0px;
+}
+body #main #about #about_main #about_infor4 {
+    width: 100%;
+    height: 27px;
+    margin: 18px 0px;
+    position:absolute;
+    top: 940px;
+    left: 0px;
+}
+body #main #about #about_main #about_infor5 {
+    width: 100%;
+    height: 27px;
+    margin: 18px 0px;
+    position:absolute;
+    top: 978px;
+    left: 0px;
+}
+/* End CSS about */
+/* Start CSS menu */
+body #main #menu {
+    width:100%;
+    height:1316px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+body #main #menu #menu_main{
+    width:700px;
+    height:1316px;
+    /* background-color: aqua; */
+}
+body #main #menu #menu_main #menu_tittle {
+    width: 100%;
+    height:123px;
+    padding: 48px 0px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body #main #menu #menu_main #menu_tittle span {
+    width: 130px;
+    height: 27px;
+    background-color: black;
+    color: white;
+    padding: 0px 8px;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+body #main #menu #menu_main #menu_choice {
+    width: 100%;
+    height: 43px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+body #main #menu #menu_main #menu_choice #menu_choice_eat {
+    width: 334px;
+    height: 27px;
+    background-color: #616161;
+    font-size: 18px;
+    color:white;
+    text-align: center;
+}
+body #main #menu #menu_main #menu_choice #menu_choice_drink {
+    width: 334px;
+    height: 27px;
+    font-size: 18px;
+    color:black;
+    text-align: center;
+}
+body #main #menu #menu_main #menu_dishes {
+    width: 100%;
+    height: 704px;
+    padding: 48px 16px;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+body #main #menu #menu_main .description {
+    margin: 0px 0px 55px 0px;
+}
+body #main #menu #menu_main #menu_dishes h5 {
+    width: 97%;
+    height:27px;
+    margin: 10px 0px;
+    font-size: 18px;
+    font-family: "Arial";
+    /* background-color: coral; */
+    font-weight: 100;
+}
+body #main #menu #menu_main #menu_dishes p {
+    width: 97%;
+    height:27px;
+    margin: 18px 0px;
+    font-size: 18px;
+    font-family: "Arial";
+    /* background-color:deeppink; */
+    color: #757575;
+    font-weight: 100;
+}
+body #main #menu #menu_main img {
+    width: 100%;
+    height: 394px;
+    margin: 32px 0px 0px;
+}
+/* End CSS menu */
+/* Start CSS where */
+body #main #where {
+    width: 100%;
+    height:1162px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body #main #where #where_main{
+    width: 700px;
+    height: 1162px;
+    /* background-color: aqua; */
+}
+body #main #where #where_main h5 {
+    width:100%;
+    height:123px;
+    /* background-color:aquamarine; */
+    padding:48px 0px;
+    margin:10px 0px;
+    text-align: center;
+}
+body #main #where #where_main h5 span {
+    width:50%;
+    height: 27px;
+    padding: 0px 8px;
+    /* background-color: pink; */
+    font-size: 18px;
+    font-family: "Arial";
+    font-weight: 100;
+    background-color: black;
+    color:white;
+}
+body #main #where #where_main #img_infor {
+    width: 100%;
+    height: 27px;
+    margin: 18px 0px;
+    font-size: 18px;
+    font-family: "Arial";
+}
+body #main #where #where_main img {
+    width: 100%;
+    height: 394px;
+}
+body #main #where #where_main #where_infor1 {
+    width: 100%;
+    height: 81px;
+    margin: 18px 0px;
+    font-family: "Arial";
+    font-size: 18px;
+    color:#616161;
+    letter-spacing: 1px;
+}
+body #main #where #where_main #where_infor1 span{
+    width: 20%;
+    height: 60px;
+    padding: 0px 8px;
+    font-size: 18px;
+    font-family: "Arial";
+    background-color: black;
+    color:white;
+}
+body #main #where #where_main #where_infor2 {
+    width: 100%;
+    height: 27px;
+    margin: 18px 0px;
+    font-size: 16px;
+    font-family: "Arial";
+    font-size: 18px;
+    color:#616161;
+    letter-spacing: 1px;
+}
+body #main #where #where_main form {
+    width: 100%;
+    height: 360px;
+}
+body #main #where #where_main form input {
+    width: 100%;
+    height:61px;
+    padding: 16px 8px;
+    margin: 10px 0px;
+}
+body #main #where #where_main form p {
+    width: 100%;
+    height: 43px;
+    margin: 18px 0px;
+}
+body #main #where #where_main form p button{
+    padding: 8px 16px;
+    font-size: 18px;
+}
+/* End CSS where */
+/* Start CSS footer */
+body #main #footer {
+    width: 100%;
+    height:159px;
+    padding: 48px 0px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+body #main #footer p {
+    width: 100%;
+    height: 27px;
+    margin: 18px 0px;
+}
+/* End CSS footer */
+/* End CSS content */
+
